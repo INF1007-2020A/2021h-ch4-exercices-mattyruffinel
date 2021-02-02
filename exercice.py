@@ -27,8 +27,14 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
     OCCURENCE=0
+    sentence = sentence.split()
     for i in sentence:
-        
+        if i == world:
+            occurence +=1
+    return occurence
+
+
+
 
 
 
